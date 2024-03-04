@@ -108,6 +108,7 @@ async function postIfIpAddressChanged(ipAddress, client) {
 async function checkAndPostIP() {
    try {
       const ipAddress = await getPublicIP();
+      console.clear();
       console.log('Fetched IP-address:', ipAddress);
       postIfIpAddressChanged(ipAddress, client);
    } catch (error) {
