@@ -37,7 +37,7 @@ How to make this code work for you:
   -
   - Every highlighted (*) section needs to be changed. You may need to change other parts of the code as well.
   - Make a folder in your desktop named "ipAddressUpdater", and make your discord bot's code in that folder. If you want to name the folder differently, you'll have to change the paths in the code accordingly.
-  - All of these files need to be put in a folder named "src", and that folder needs to be in the "ipAdressUpdater" folder.
+  - All of these files need to be put in a folder named "src", and that folder needs to be in the "ipAddressUpdater" folder.
   - This script checks the server status and ip address every two minutes. That means, that if the ip-address has changed, it stops the server and starts it again after two minutes. If your server closing time is more than two minutes (which is not usual), you'll have to change the interval to be longer.
 
 I used this video in making of the bot: https://youtu.be/KZ3tIGHU314?si=MQ00XvWixobSSyJG
