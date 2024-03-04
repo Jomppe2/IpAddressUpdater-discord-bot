@@ -11,7 +11,7 @@ const client = new Client({
 module.exports = client;
 
 client.login(
-   '*****************'
+   '*your discord bot token*'
 );
 
 client.on('ready', (c) => {
